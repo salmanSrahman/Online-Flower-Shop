@@ -192,7 +192,7 @@ nav ul li a {
    featured flowers part end
 ============================== */
 /*=============================
-      nav part css start
+      hot deal part css start
 ============================== */
 .hot_deal_part {
       background: rgba(229, 84, 115, 0.05);
@@ -227,7 +227,7 @@ nav ul li a {
 }
 
 /*=============================
-      nav part css end
+      hot deal part css end
 ============================== */
 /*=============================
       instagram part css start
@@ -252,6 +252,7 @@ nav ul li a {
 .latest_deal_inner {
       background-image: url("../images/Rectangle 9.png");
       padding: 100px 0;
+      margin-bottom: 120px
 }
 
 .btn_secondary {
@@ -285,10 +286,34 @@ nav ul li a {
     latest deal part css end
 ============================== */
 /*=============================
-      nav part css start
+      footer part css start
 ============================== */
+footer {
+      padding: 80px 0;
+      background: #111010;
+}
+
+footer .title h2 {
+      color: white
+}
+
+footer .title h2 span {
+      color: #E55473
+}
+
+footer .title p {
+      color: rgba(255, 255, 255, 0.90);
+}
+
+.copyright {
+      color: rgba(255, 255, 255, 0.40);
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+}
+
 /*=============================
-      nav part css end
+      footer part css end
 ============================== */
 /*=============================
       nav part css start
