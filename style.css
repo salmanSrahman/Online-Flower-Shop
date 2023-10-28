@@ -1,0 +1,99 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+ul,
+ol {
+      list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+a {
+      margin: 0;
+      padding: 0
+}
+
+a {
+      text-decoration: none;
+}
+
+body {
+      font-family: 'Lato', sans-serif;
+}
+
+.container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 5px;
+}
+
+
+/*=============================
+        common css end
+============================== */
+/*=============================
+      nav part css start
+============================== */
+.header {
+      background: rgba(229, 84, 115, 0.10);
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+nav ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+}
+
+nav ul li a {
+      color: #474747;
+      font-size: 18px;
+      font-weight: 400;
+}
+
+/*=============================
+      nav part css end
+============================== */
+
+
+
+/*=============================
+      nav part css start
+============================== */
+/*=============================
+      nav part css end
+============================== */
+/*=============================
+      nav part css start
+============================== */
+/*=============================
+      nav part css end
+============================== */
+/*=============================
+      nav part css start
+============================== */
+/*=============================
+      nav part css end
+============================== */
+/*=============================
+      nav part css start
+============================== */
+/*=============================
+      nav part css end
+============================== */
