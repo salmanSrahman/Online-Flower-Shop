@@ -37,6 +37,14 @@ body {
       padding: 5px;
 }
 
+.primary {
+      color: #272727
+}
+
+.secondary {
+      color: rgba(39, 39, 39, 0.60)
+}
+
 
 /*=============================
         common css end
@@ -71,13 +79,51 @@ nav ul li a {
       nav part css end
 ============================== */
 
-
-
 /*=============================
-      nav part css start
+      hero part css start
 ============================== */
+.hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 50px;
+}
+
+.hero_text {
+      max-width: 60%;
+}
+
+.hero_img {
+      max-width: 40%;
+}
+
+.hero_text h1 {
+      font-size: 80px;
+      font-weight: 800;
+      width: 708px;
+      margin-bottom: 32px;
+}
+
+.para {
+      color: rgba(39, 39, 39, 0.60);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 32px;
+}
+
+.btn_primary {
+      padding: 20px 43px;
+      border-radius: 8px;
+      background: #E55473;
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 700;
+      border: 0;
+}
+
 /*=============================
-      nav part css end
+      hero part css end
 ============================== */
 /*=============================
       nav part css start
