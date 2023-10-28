@@ -110,7 +110,9 @@ nav ul li a {
       font-size: 18px;
       font-weight: 400;
       line-height: 30px;
-      margin-bottom: 32px;
+      width: 594px;
+      margin: 0 auto 32px;
+      text-align: center;
 }
 
 .btn_primary {
@@ -129,7 +131,7 @@ nav ul li a {
 /*=============================
   featured flowers part start
 ============================== */
-.featured_flowers {
+.featured_flowers_part {
       padding: 140px 0;
 }
 
@@ -144,14 +146,12 @@ nav ul li a {
       margin-bottom: 24px
 }
 
-.title p {
-      width: 594px;
-      margin: 0 auto;
-}
+
 
 .featured_flowers_inner {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       text-align: center;
       gap: 24px;
 }
@@ -194,9 +194,40 @@ nav ul li a {
 /*=============================
       nav part css start
 ============================== */
+.hot_deal_part {
+      padding-bottom: 140px;
+}
+
+.hot_deal_inner {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+}
+
+.hot_deal_text {
+      max-width: 60%;
+      text-align: center;
+}
+
+.hot_deal_text h1 {
+      font-size: 40px;
+      font-weight: 800;
+      margin-bottom: 24px;
+}
+
+.hot_deal_text h1 span {
+      color: #E55473;
+}
+
+.hot_deal_image {
+      max-width: 40%;
+}
+
 /*=============================
       nav part css end
 ============================== */
+
 /*=============================
       nav part css start
 ============================== */
