@@ -112,6 +112,17 @@ nav ul li a {
       margin-bottom: 32px;
 }
 
+.hero_text p {
+      text-align: left;
+      margin-bottom: 32px;
+      color: rgba(39, 39, 39, 0.60);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      width: 594px;
+}
+
+
 .para {
       color: rgba(39, 39, 39, 0.60);
       font-size: 18px;
@@ -152,6 +163,7 @@ nav ul li a {
       font-weight: 800;
       margin-bottom: 24px
 }
+
 
 
 
@@ -199,19 +211,44 @@ nav ul li a {
    featured flowers part end
 ============================== */
 /*=============================
-      hot deal part css start
+    delivery part css start
+============================== */
+.delivery_part {
+      margin-bottom: 120px
+}
+
+.delivery_inner {
+      padding: 80px 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      border-radius: 8px;
+      background: rgba(39, 39, 39, 0.05);
+}
+
+
+
+.delivery p {
+      color: rgba(39, 39, 39, 0.80);
+      margin-top: 24px;
+}
+
+/*=============================
+    delivery part css end
+============================== */
+/*=============================
+    hot deal part css start
 ============================== */
 .hot_deal_part {
       background: rgba(229, 84, 115, 0.05);
-      margin-bottom: 120px
+      margin-bottom: 120px;
 }
 
 .hot_deal_inner {
       display: flex;
       justify-content: space-around;
       align-items: center;
-
-
 }
 
 .hot_deal_text {
@@ -234,10 +271,10 @@ nav ul li a {
 }
 
 /*=============================
-      hot deal part css end
+    hot deal part css end
 ============================== */
 /*=============================
-      instagram part css start
+    instagram part css start
 ============================== */
 .instagram_part {
       padding-bottom: 140px;
@@ -300,7 +337,6 @@ nav ul li a {
       padding: 90px 0;
       background: url(../images/cover2.jpg) center no-repeat;
       background-size: cover;
-      background-attachment: fixed;
       text-align: center;
       margin-bottom: 0;
 
