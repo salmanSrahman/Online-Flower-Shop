@@ -25,6 +25,7 @@ a {
 
 a {
       text-decoration: none;
+      display: inline-block;
 }
 
 body {
@@ -52,7 +53,7 @@ body {
 /*=============================
       nav part css start
 ============================== */
-.header {
+header {
       background: rgba(229, 84, 115, 0.10);
 }
 
@@ -126,10 +127,69 @@ nav ul li a {
       hero part css end
 ============================== */
 /*=============================
-      nav part css start
+  featured flowers part start
 ============================== */
+.featured_flowers {
+      padding: 140px 0;
+}
+
+.title {
+      text-align: center;
+      margin-bottom: 48px;
+}
+
+.title h2 {
+      font-size: 40px;
+      font-weight: 800;
+      margin-bottom: 24px
+}
+
+.title p {
+      width: 594px;
+      margin: 0 auto;
+}
+
+.featured_flowers_inner {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      gap: 24px;
+}
+
+.flowers:nth-child(1) img {
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(167, 33, 98, 0.15);
+      padding: 50px 50px 0 50px;
+      width: 310px;
+      height: 360px;
+}
+
+.flowers:nth-child(2) img {
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(5, 151, 160, 0.15);
+      padding: 50px 50px 0 50px;
+      width: 310px;
+      height: 360px;
+}
+
+.flowers:nth-child(3) img {
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(71, 125, 17, 0.15);
+      padding: 50px 50px 0 50px;
+      width: 310px;
+      height: 360px;
+}
+
+.flowers a {
+      text-decoration: underline;
+      font-size: 24px;
+      font-weight: 700;
+      color: #272727;
+      margin-top: 12px;
+}
+
 /*=============================
-      nav part css end
+   featured flowers part end
 ============================== */
 /*=============================
       nav part css start
