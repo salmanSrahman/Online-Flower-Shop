@@ -195,13 +195,15 @@ nav ul li a {
       nav part css start
 ============================== */
 .hot_deal_part {
-      padding-bottom: 140px;
+      background: rgba(229, 84, 115, 0.05);
+      margin-bottom: 120px
 }
 
 .hot_deal_inner {
       display: flex;
       justify-content: space-around;
       align-items: center;
+
 
 }
 
@@ -245,10 +247,42 @@ nav ul li a {
       instagram part css end
 ============================== */
 /*=============================
-      nav part css start
+    latest deal part css start
 ============================== */
+.latest_deal_inner {
+      background-image: url("../images/Rectangle 9.png");
+      padding: 100px 0;
+}
+
+.btn_secondary {
+      padding: 16px 32px;
+      border-radius: 8px;
+      background: #E55473;
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 700;
+      border: 0;
+}
+
+.latest_deal_form {
+      display: flex;
+      justify-content: center;
+}
+
+.latest_deal_form input {
+      width: 700px;
+      border-radius: 8px;
+      background: #FFF;
+      padding: 16px;
+      color: rgba(39, 39, 39, 0.60);
+      font-size: 16px;
+      font-weight: 400;
+      border: 0;
+      margin-right: 10px;
+}
+
 /*=============================
-      nav part css end
+    latest deal part css end
 ============================== */
 /*=============================
       nav part css start
